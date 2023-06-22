@@ -1,18 +1,27 @@
-## Getting Started
+## This is a solution for a task in Java 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This Java project implements an Employee Management System using object-oriented programming principles. It provides a way to record employee details and calculate their salary and bonus based on certain criteria.
 
-## Folder Structure
+## Employee Types
+We have two types of employees:
 
-The workspace contains two folders by default, where:
+Full-time employees
+Part-time employees
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Employee Details
+Each employee has the following details:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Name: The name of the employee.
+Position: The job position or title of the employee.
+Salary: The salary of the employee.
+Experience: The number of years of experience of the employee.
+Educational Level: The educational level of the employee (e.g., Bachelor Degree, Diploma).
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Repository Structure
+This repository contains the following files:
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Employee.java: An abstract class representing the base Employee class.
+FullTimeEmployee.java: A class representing a full-time employee, extending the Employee class.
+PartTimeEmployee.java: A class representing a part-time employee, extending the Employee class.
+App.java: The main class that demonstrates the usage of the Employee Management System.
+README.md: This file, providing an overview of the project.
